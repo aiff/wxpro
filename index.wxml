@@ -1,20 +1,16 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <input class="input"  bindtap="inputfn"/>
+   <view class="list" wx:if="{{diss}}">
+    <view class="item" >
+      <text>abc11</text>
+    </view>
+   
+   <view class="item2" >
+      <text>abc</text>
+    </view>
+     <view class="item3" >
+      <text>abc</text>
+    </view>
   </view>
-  <button  size="defalut" type="warn"> ok</button>
-  <icon type="success">ok</icon>
-    
-   <button  size="defalut" loading="truc" type="primary" bindtap="doload"> ok</button>
-  <view class="views">
-   <block wx:for="{{[10,20,30,40,50,60]}}">
-    <icon type="info"  size="{{item}}"></icon>
-   </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-
 </view>
