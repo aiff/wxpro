@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
+ 
+   <text  class="text">abc111111</text>
   <input class="input"  bindtap="inputfn"/>
    <view class="list" wx:if="{{diss}}">
     <view class="item" >

@@ -4,9 +4,8 @@ var app = getApp()
 Page({
   
   data: {
-    //ddis:false
-    motto: 'Hello World  eric',
-    userInfo: {}
+     diss:true
+    
   },
   inputfn:function(e){
       console.log(e);
@@ -18,7 +17,7 @@ Page({
       url: '../logs/logs'
     })
   },doload :function(){
-  //  this.setdata:false
+     //this.setdata:true
   },
   onLoad: function () {
     console.log('onLoad')
