@@ -1,0 +1,60 @@
+<!--index.wxml  .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list {width: 20%;
+margin: 30px auto
+box-shadow: 0px  0px #ddd;
+}
+.input{ border: 1px  solid darkblue;
+width: 80%;margin: 30px auto;border-radius:20px;
+color:aqua }
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}-->
+<view class="container">
+   
+          <view  wx:if="{{len>5}}">大于5   
+           
+          </view> <view  wx:else>小于5  </view>
+          <view>{{"hello"+name}} </view>
+          <view id="abc" style="display:block"> view  </view>
+   <text  class="text">abc111111</text>
+  <input class="input"  bindtap="inputfn"/>
+   <view class="list" wx:if="{{diss}}">
+    <view class="item" >
+      <text>mysql 数据迁移可以直接用 master slave 同步好以后改下ip完事了。</text>
+    </view>
+   
+   <view class="item2" >
+      <text>abc</text>
+    </view>
+     <view class="item3" >
+      <text>abc</text>
+    </view>
+  </view>
+<button type="primary" size="{{primarySize}}"  > primary </button>
+<view  class="board">
+  <view class="board-item">  
+   <text>榜单</text>
+  <image src="../../img/f120.png"  MODE="aspectFill"/>   
+
+  
+</view>
+<view class="board-item">  
+ <text>榜单</text>
+  <image src="../../img/f120.png"  MODE="aspectFill"/>   
+  
+  
+</view><view class="board-item">  
+ <text>榜单</text><image src="../../img/f120.png"  MODE="aspectFill"/>   
+  
+  
+</view>
+
+</view>
+ 
