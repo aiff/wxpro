@@ -6,6 +6,7 @@ Page({
   data: {
     // diss:true,
     len:2,
+    imgUrls:['../../img/2.jpg','../../img/1.jpg'],
     name:'qq',
     //  array:[1,2,3,4,'hello'],
   },

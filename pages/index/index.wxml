@@ -15,10 +15,9 @@ color:aqua }
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
-}-->
-<view class="container">
-   
-          <view  wx:if="{{len>5}}">大于5   
+}
+
+        <view  wx:if="{{len>5}}">大于5   
            
           </view> <view  wx:else>小于5  </view>
           <view>{{"hello"+name}} </view>
@@ -36,21 +35,37 @@ color:aqua }
      <view class="item3" >
       <text>abc</text>
     </view>
-  </view>
+  </view>-->
+<view class="container">
+   
+  
+  <view  class="swiper">
+  <swiper indicator-dots="true"
+  autoplay="true" interval="8000" duration="1000">
+  
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="../../img/1.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../img/2.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
 <button type="primary" size="{{primarySize}}"  > primary </button>
 <view  class="board">
-  <view class="board-item">  
-   <text>榜单</text>
-  <image src="../../img/f120.png"  MODE="aspectFill"/>   
-
-  
-</view>
+  <navigator url="../detail/detail" hover-class="navigator-hover">
 <view class="board-item">  
  <text>榜单</text>
   <image src="../../img/f120.png"  MODE="aspectFill"/>   
   
   
-</view><view class="board-item">  
+</view>
+
+</navigator>
+
+<view class="board-item">  
  <text>榜单</text><image src="../../img/f120.png"  MODE="aspectFill"/>   
   
   

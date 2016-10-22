@@ -9,6 +9,10 @@ body {}
 margin: 30px auto
 box-shadow: 0px  0px #ddd;
 }
+ 
+ .swiper{ height:300px;}
+
+
 .input{ border: 1px  solid darkblue;
 width: 80%;margin: 30px auto;border-radius:20px;
 color:aqua }
@@ -29,6 +33,22 @@ margin:0;
 padding: 0;
 
 }
+.board-item {display:flex;cursor:pointer }
+.board-item text{flex:1
+}
 .board-item image{width:80rpx;
 height: 80rpx;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
