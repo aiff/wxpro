@@ -3,6 +3,7 @@
    
    "pages/index/index",
    "pages/detail/detail",
+   "pages/douyu/douyu",
     "pages/logs/logs"
   ],
   "window":{

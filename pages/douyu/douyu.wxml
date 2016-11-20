@@ -1,0 +1,6 @@
+<view class='body'>
+    <view class='cell' wx:for="{{zbItems}}">
+        <image class='icon' src="{{'http://img.lolbox.duowan.com/zb/'+item.id+'_64x64.png'}}"/>
+        <text class='title'>{{item.tag}}</text>
+    </view>mmmmmmmm
+</view>

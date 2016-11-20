@@ -64,12 +64,13 @@ color:aqua }
 </view>
 
 </navigator>
+<navigator url="../douyu/douyu" hover-class="navigator-hover">
 
 <view class="board-item">  
  <text>榜单</text><image src="../../img/f120.png"  MODE="aspectFill"/>   
   
   
 </view>
-
+</navigator>
 </view>
  
